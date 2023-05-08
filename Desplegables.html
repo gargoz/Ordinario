@@ -1,0 +1,187 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Elementos de paginación</title>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0
+.0/css/bootstrap.min.css">
+</head>
+
+<body>
+<div class="jumbotron text-center">
+  <h1>DESPLEGABLES</h1>
+</div>
+<div class="container">
+	
+  <div class="row">
+	  <h4>Menú desplegable básico</h4>
+    <div class="dropdown">
+      <button type="button" class="btn btn-primary dropdown-toogle" data-toggle="dropdown"> Menú </button>
+		
+      <div class="dropdown-menu dropdown-menu-right"> 
+		  <a class="dropdown-item" href="#">Opción 1werwerwer</a> 
+		  <a class="dropdown-item" href="#">Opción 2werwerwerwer</a> 
+		  <a class="dropdown-item" href="#">Opción 3werwerwerwerwer</a> </div>
+    </div>
+  </div>
+
+	
+	<div class="row">
+	 <h4>Menú desplegable con división</h4>
+	 <div class="dropdown">
+      <button type="button" class="btn btn-secondary dropdown-toogle" data-toggle="dropdown"> Menú Desplegable </button>
+		 
+      <div class="dropdown-menu"> 
+		  <a class="dropdown-item" href="#">Opción a</a> 
+		  <a class="dropdown-item" href="#">Opción b</a> 
+		  <a class="dropdown-item" href="#">Opción c</a> 
+		 
+		 <div class="dropdown-divider"> </div>   
+		 
+		 <a class="dropdown-item" href="#">Opción X</a>
+		 
+		 
+		 
+		  </div>
+    </div>
+	
+		</div>
+	
+	<div class="row"> 
+	 <h4>Menú desplegable con encabezado</h4>
+    <div class="dropup">
+      <button type="button" class="btn btn-primary dropdown-toogle" data-toggle="dropdown"> Menú Desplegable </button>
+		
+      <div class="dropdown-menu"> 
+		  <div class="dropdown-header">Encabezado</div>
+		  <a class="dropdown-item active" href="#">Opción 1</a> 
+		  <a class="dropdown-item disabled" href="#">Opción 2</a> 
+		  <a class="dropdown-item" href="#">Opción 3</a> </div>
+    </div>
+	
+		
+	</div>
+	
+	
+	<div class="row">
+	<h4>grupo de botes desplegables</h4>
+	
+	<div class="btn-group">
+		<!--botón 1-->
+		<button type="button" class="btn btn-primary">  Sony </button>
+		<button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown"> <span class="caret"> </span> </button>
+		
+		<div class="dropdown-menu">
+		<a class="dropdown-item" href="#">Tablet</a>
+		<a class="dropdown-item" href="#">Smartphone</a>
+		
+		</div>
+		
+		<!--botón 2-->
+		
+			<button type="button" class="btn btn-secondary">  Toshiba </button>
+		<button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown"> <span class="caret"> </span> </button>
+		
+		<div class="dropdown-menu">
+		<a class="dropdown-item" href="#">Tablet</a>
+		<a class="dropdown-item" href="#">Smartphone</a>
+		
+		</div>
+		
+		<!--botón 3-->
+		
+			<button type="button" class="btn btn-warning">  HP </button>
+		<button type="button" class="btn btn-warning dropdown-toggle dropdown-toggle-split" data-toggle="dropdown"> <span class="caret"> </span> </button>
+		
+		<div class="dropdown-menu">
+		<a class="dropdown-item" href="#">Tablet</a>
+		<a class="dropdown-item" href="#">Smartphone</a>
+		
+		</div>
+		
+		
+		</div>
+	
+	</div>
+	
+	
+	
+	<div class="jumbotron text-center">
+  <h1>COLAPSABLES</h1>
+</div>
+	
+	<div class="container">
+		
+		<div class="row">
+		
+			<a data-toggle="collapse" href="#demo"> clic para mostrar</a>
+			
+			<button data-toggle="collapse" data-target="#demo"> Clic para ocultar     </button>
+		
+		<div id="demo" class="collapse"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, molestias, modi. Nisi, numquam aspernatur mollitia quaerat fugiat totam eius nobis, soluta incidunt officia minima facilis fuga porro dolorum aperiam explicabo!</p></div>
+			
+			
+		</div>
+		
+		
+		<div class="row">
+		
+		<div id="accordion">
+			
+			<!--Tarjeta 1 colapsable-->
+			<div class="card">
+			
+			<div class="card-header"> 
+				<a class="card-link" data-toggle="collapse" data-parent="#accordion" href="#collapseOne"> Grupo colapsbale 1</a>
+				</div>
+			
+			<div id="collapseOne" class="collapse show" > 
+				<div class="card-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus eius alias quas perspiciatis possimus aspernatur iure mollitia earum ab esse quod modi tempore, sunt, quae id sed quia quidem ea.</div>
+				</div>
+						
+			</div>
+			<!--------- Fin tarjeta 1 colapsable-->
+			
+			<!--Tarjeta 2 colapsable-->
+			<div class="card">
+			
+			<div class="card-header"> 
+				<a class="card-link" data-toggle="collapse" data-parent="#accordion" href="#collapse2"> Grupo colapsbale 2</a>
+				</div>
+			
+			<div id="collapse2" class="collapse show" > 
+				<div class="card-body"><h6>Calzado</h6>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste dolore quisquam perspiciatis recusandae quo, eveniet ipsa. Excepturi quibusdam sunt officiis error, ex dolores quae ipsam eveniet veniam et libero voluptas!</div>
+				</div>
+						
+			</div>
+			<!--------- Fin tarjeta 2 colapsable-->
+			</div>
+		
+				</div>
+	
+	
+	
+	
+	</div>
+	
+	</div>
+	
+	
+	
+	
+	
+	
+
+<!-- jQuery library --> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min
+.js"></script> 
+
+<!-- Popper JS --> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/p
+opper.min.js"></script> 
+
+<!-- Latest compiled JavaScript --> 
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.
+min.js"></script>
+</body>
